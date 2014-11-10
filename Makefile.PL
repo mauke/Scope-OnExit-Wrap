@@ -47,6 +47,13 @@ my %opt = (
                 type => 'git',
             },
         },
+        prereqs => {
+            runtime => {
+                recommends => {
+                    'Scope::OnExit' => 0,
+                },
+            },
+        },
     },
 );
 
